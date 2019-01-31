@@ -2,19 +2,20 @@
   <div class="home container">
     <p class="hello pSpecial animated fadeInUp">Hi There!</p>
     <p class="intro pSpecial animated fadeInUp">
-      I'm Favour Ori — 
+      I'm Favour Ori —
       <b>US</b> Based
-     
+      <b>Full Stack</b> Developer.
     </p>
-    <p
-      class="desc animated fadeInUp"
-    >Passionate about developing innovative products that will steer the future of computing. I love learning & exploring new technologies. I also teach programming
-      <span style="color:#503A6D">@Favcode54</span>
+    <p class="desc animated fadeInUp">
+      Passionate about developing innovative products that will steer the future of computing. I love learning & exploring new technologies. I also teach programming
+      <span
+        style="color:#503A6D"
+      >@Favcode54</span>
     </p>
     <br>
     <br>
     <br>
-  
+
     <h5 style="color: #c0392b; font-size: 27px" class="animated fadeInUp">Selected Projects:</h5>
 
     <HomeProject class="animated fadeInUp"/>
