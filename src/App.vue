@@ -28,7 +28,7 @@ export default {
 }
 
 body{
-    background: black;
+    background: #ffffff;
 
     font-family: customFont;
 }

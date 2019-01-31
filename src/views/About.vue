@@ -36,7 +36,7 @@
      
      </div>  
 
-     <br/>
+     <br/><br/><br/><br/><br/>
 
  </div>
 </template>
@@ -62,7 +62,7 @@ export default {
 }
 
 body{
-  color:white
+  color:black
 }
 
 .chip{

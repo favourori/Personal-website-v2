@@ -1,8 +1,8 @@
 <template>
-  <div class="project" style="border-radius: 9px;">
+  <div class="project" style="border-radius: 0px  z-depth-0 ;">
   <div class="row">
     <div class="col s12 m12 " v-for="(project, index) in projects" :key="index">
-      <div class="card " style="color:black;border-radius: 9px; ">
+      <div class="card " style="color:black;border-radius: 0px;">
          
         <div class="card-image">
             

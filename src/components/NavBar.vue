@@ -1,10 +1,10 @@
 <template>
 <div class="navbar-fixed">
   
-    <nav class="navColor">
+    <nav class="navColor z-depth-0 ">
         <div class="container">
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo main-logo" style="font-size: 28px; font-weight: 100">favourX 👨🏾‍💻</a>
+    <div class="nav-wrapper ">
+      <a href="#" class="brand-logo main-logo" style="font-size: 28px; font-weight: 100">Favor ori 👨🏾‍💻</a>
       <ul class="right hide-on-med-and-down">
         <li>  <router-link to="/">  Home </router-link>  </li>
 
@@ -30,7 +30,7 @@ export default {
 
 <style>
 .navColor{
-    background: #2e86de
+   background-image: linear-gradient(to right, #2c3e50, #2d3f5a, #343f63, #403d69, #503a6d);
 }
 
 </style>
