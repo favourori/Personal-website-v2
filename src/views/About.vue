@@ -30,8 +30,8 @@
     </div>
 <br/>
 
-     <h5>Tools & Technologies:</h5>   <br/>
-     <div> <span class="chip grey" v-for="(tool, index) in tools" :key="index"> {{tool}}</span>
+     <h5 style="font-size: 20px; font-weight: 400">Tools & Technologies:</h5>   <br/>
+     <div> <span style=" background: rgb(64, 89, 113)" class="chip " v-for="(tool, index) in tools" :key="index"> {{tool}}</span>
      
      
      </div>  
