@@ -1,7 +1,7 @@
 <template>
 <div class="container ">
 <div>
-    <h4 class="animated fadeInUp title" >Recent Projects </h4>
+    <h4 class="animated fadeInUp title" style="font-size: 23px" >Recent Projects </h4>
    <Project class="animated fadeInUp"/>
 </div>
 </div>

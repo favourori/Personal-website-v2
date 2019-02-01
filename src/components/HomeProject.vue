@@ -1,36 +1,38 @@
 <template>
-  <div class="project" style="border-radius: 0px  z-depth-0 ;">
-  <div class="row">
-    <div class="col s12 m12 " v-for="(project, index) in projects" :key="index">
-      <div class="card " style="color:black;border-radius: 0px;">
-         
-        <div class="card-image">
-            
-         <img :src= projects[index].image  />
-         
-
-          <span class="card-title"> {{projects[index].title}} </span>
-        </div>
-        <div class="card-content " style="color:black" >
-          <p>{{projects[index].desc}}</p><br/>
-
-<span class="chip red hoverable"  style="color:white"  v-for="(tool, index) in projects[index].tech" :key="index"   >  {{tool}}  </span>
-         <span class="chip hoverable">View on Github</span>  </div>
-
-
-        </div>
-      
+  <div class="project" style=" z-depth-0 ; margin-left: 0">
+    <div class="row">
+      <div class="col s12 m6" v-for="(project, index) in projects" :key="index">
+        <a v-bind:href="projects[index].projectLink" target="blank">
+          <div
+            class="card z-depth-1 projectCard hoverable "
+            style="color:black; border-radius: 0px; border-radius: 4px; "
+          >
+            <div class="card-content" style="color:#ecf0f1">
+              <span class="card-title" style="font-size: 22px">{{projects[index].title}}</span>
+              <p style="font-size: 14px; font-weight: 100">{{projects[index].desc}}</p>
+              <br>
+              <br>
+              <span
+                class="chip hoverable"
+                style="color:white; background: #405971"
+                v-for="(tool, index) in projects[index].tech"
+                :key="index"
+              >{{tool}}</span>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
 
-<div style="margin: 48px 0">
-  <center><a class="waves-effect waves-light btn mainColor">View more projects</a></center>  
-</div>
+    <br>
+    <br>
 
+    <center>
+      <p style="color: grey">© 2019 FAVOUR ORI</p>
+    </center>
+
+    <br>
   </div>
-        
-
- 
 </template>
 
 
@@ -40,100 +42,82 @@
 export default {
   name: "HomeProject",
 
-  data(){
-      return {
-          
-          projects : [
-               {
-             title: "Mini Task Manager",
-             desc : "Very lightweight task manager developed in Vue Js - using the vuetify Library. Persisting data with Firebase",
-             image: require('@/assets/images/taskManager.png'),
+  data() {
+    return {
+      projects: [
+        {
+          title: "Mini Task Manager",
+          desc:
+            "Very lightweight task manager developed in Vue Js - using the vuetify Library. Persisting data with Firebase",
+          image: require("@/assets/images/taskManager.png"),
 
-             tech : ["Javascript", "Vue Js", "Vuetify", "Firebase"]
-         },
-         {
-             title: "Github Finder App",
-             desc : "Using the Github Public API to build a Javascript app that let's you search for users. It returns their Avatar, repo count, followers, etc",
-             image: require('@/assets/images/githubFinder.png'),
+          tech: ["Javascript", "Vue Js", "Firebase"],
+          links: [{ github: "" }, { projectLink: "" }],
+          projectLink: "https://github.com/favourori/playingwithvuetify"
+        },
+        {
+          title: "Github Finder App",
+          desc:
+            "Using the Github Public API to build a Javascript app that let's you search for users. It returns their Avatar, repo count, followers, etc",
+          image: require("@/assets/images/githubFinder.png"),
 
-             tech : ["Javascript", "HTML5", "CSS3", "AJAX"]
-         },
+          tech: ["Javascript", "HTML5", "CSS3"],
+          projectLink: "https://github.com/favourori/githubprofilefinder"
+        },
 
+        {
+          title: "4 Youth by Youth",
+          desc: "Mobile Application Prototyping",
 
-         {
-             title: "Love Church Tulsa",
-             desc : "Responsive Web Application developed in wordpress",
+          tech: ["Sketch", "Flaticons"],
+          image: require("@/assets/images/4yby.png"),
+          projectLink: "http://4yby.org"
+        },
 
-             tech : ["Node Js", "HTML5", "CSS3", "AJAX"],
-             image: require("@/assets/images/rccg.png")
-         },
+        {
+          title: "SAU Maths & Computer Science Club",
+          desc:
+            "Responsive Website for Southern Arkansas University's Computer Science Club",
 
-
-         {
-             title: "4 Youth by Youth",
-             desc : "Mobile Application Prototyping",
-
-             tech : ["Sketch", "Flaticons"],
-             image: require("@/assets/images/4yby.png")
-         },
-
-         {
-             title: "SAU Maths & Computer Science Club",
-             desc : "Responsive Website for Southern Arkansas University's Computer Science Club",
-
-             tech : ["HTML5", "CSS3", "Javascript", "Materialize"],
-             image: require("@/assets/images/sau.png")
-         },
-
-         {
-             title: "Zawadi Honor Care",
-             desc : "Responsive Website for Zawadi Honor care",
-
-             tech : ["HTML5", "CSS3", "Javascript"],
-             image: require("@/assets/images/zawadi.png")
-         }
-     ]
-      }
-    
+          tech: ["Javascript", "Materialize"],
+          image: require("@/assets/images/sau.png"),
+          projectLink: "http://web.saumag.edu"
+        }
+      ]
+    };
   }
-
-
 };
 </script>
 
 <style>
 .project {
   height: 360px;
-    
+
   width: 100%;
-  margin-top: 60px;
+  margin-top: 30px;
 
-   
-   background-position: center;
-   background-repeat: no-repeat;
-   margin-bottom: 30px;
-
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+.projectCard {
+  background: #2c3e50;
+  color: white;
+  height: 250px;
 }
 
-.project-image{
-object-fit: cover;
-width: 100%;
-
+.project-image {
+  object-fit: cover;
+  width: 100%;
 }
 
-
-
-.mainColor{
-    background: #2e86de
+.mainColor {
+  background: #2e86de;
 }
 
-.btn:hover{
-     background: red
+.btn:hover {
+  background: red;
 }
-
-
-
-
 </style>
 
 

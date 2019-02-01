@@ -4,19 +4,19 @@
     <p class="intro pSpecial animated fadeInUp">
       I'm Favour Ori —
       <b>US</b> Based
-      <b>Full Stack</b> Developer.
+      <b>Software</b> Developer.
     </p>
     <p class="desc animated fadeInUp">
       Passionate about developing innovative products that will steer the future of computing. I love learning & exploring new technologies. I also teach programming
       <span
         style="color:#503A6D"
-      >@Favcode54</span>
+      ><b>@Favcode54</b></span>
     </p>
     <br>
     <br>
     <br>
 
-    <h5 style="color: #c0392b; font-size: 27px" class="animated fadeInUp">Selected Projects:</h5>
+    <h5 style="color: black; font-size: 16px; font-weight: 400;  " class="animated fadeInUp">SELECTED PROJECTS</h5> <br/>
 
     <HomeProject class="animated fadeInUp"/>
   </div>
@@ -48,7 +48,7 @@ export default {
   color: #2c3e50;
 }
 .hello {
-  font-size: 35px;
+  font-size: 29px;
   font-weight: 300;
   letter-spacing: 1px;
 }

@@ -4,7 +4,7 @@
     <nav class="navColor z-depth-0 ">
         <div class="container">
     <div class="nav-wrapper ">
-      <a href="#" class="brand-logo main-logo" style="font-size: 28px; font-weight: 100">Favor ori 👨🏾‍💻</a>
+      <a href="#" class="brand-logo main-logo" style="font-size: 18px; font-weight: 300">FAVOR ORI 👨🏾‍💻 </a>
       <ul class="right hide-on-med-and-down">
         <li>  <router-link to="/">  Home </router-link>  </li>
 
