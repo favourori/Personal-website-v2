@@ -1,22 +1,23 @@
 <template>
   <div class="home container">
-    <p class="hello pSpecial animated fadeInUp">Hi There!</p>
-    <p class="intro pSpecial animated fadeInUp">
-      I'm Favour Ori —
+    <p class="hello pSpecial animated fadeInUp">Hello There!</p>
+    <p class="intro pSpecial animated fadeInUp" style="font-size: 20px">
+      I am <span style="font-weight: 400">Favour Ori</span> —
       <b>US</b> Based
       <b>Software</b> Developer.
     </p>
     <p class="desc animated fadeInUp">
-      Passionate about developing innovative products that will steer the future of computing. I love learning & exploring new technologies. I also teach programming
+     Passionate about developing innovative products that will steer the future of computing. I love learning & exploring new technologies. I also teach programming
       <span
-        style="color:#503A6D"
-      ><b>@Favcode54</b></span>
+        style="color:#503A6D; font-size: 22px"
+      ><b>@Favcode54</b></span> <br/> 
+    
     </p>
     <br>
     <br>
     <br>
 
-    <h5 style="color: black; font-size: 16px; font-weight: 400;  " class="animated fadeInUp">SELECTED PROJECTS</h5> <br/>
+    <p style="color: black; font-size: 18px; font-weight: 100;   " class="animated fadeInUp"> <span style="    background: #5584B2; color: white ; padding: 10px 10px;  ">Recent Projects </span></p> 
 
     <HomeProject class="animated fadeInUp"/>
   </div>
@@ -48,7 +49,7 @@ export default {
   color: #2c3e50;
 }
 .hello {
-  font-size: 29px;
+  font-size: 23px;
   font-weight: 300;
   letter-spacing: 1px;
 }
@@ -63,7 +64,7 @@ export default {
   color: black;
   font-weight: 300;
 
-  font-size: 18px;
+  font-size: 17px;
 }
 
 h1,

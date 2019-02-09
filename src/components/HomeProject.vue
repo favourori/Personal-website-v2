@@ -1,23 +1,24 @@
 <template>
   <div class="project" style=" z-depth-0 ; margin-left: 0">
-    <div class="row">
-      <div class="col s12 m6" v-for="(project, index) in projects" :key="index">
+    <br/>
+    <div class="row" style=" margin-left: -11px; margin-right: -11px">
+      <div class="col s12 m4 l4" v-for="(project, index) in projects" :key="index">
         <a v-bind:href="projects[index].projectLink" target="blank">
           <div
             class="card z-depth-1 projectCard hoverable "
-            style="color:black; border-radius: 0px; border-radius: 4px; "
+            style="color:black;  border-radius: 4px; "
           >
             <div class="card-content" style="color:#ecf0f1">
-              <span class="card-title" style="font-size: 22px">{{projects[index].title}}</span>
+              <span class="card-title" style="font-size: 20px">{{projects[index].title}}</span>
               <p style="font-size: 14px; font-weight: 100">{{projects[index].desc}}</p>
               <br>
               <br>
               <span
                 class="chip hoverable"
-                style="color:white; background: #405971"
+                style="color:white; font-size: 11px; background: #5584B2"
                 v-for="(tool, index) in projects[index].tech"
                 :key="index"
-              >{{tool}}</span>
+              ><span style="color: yellow"> ● </span> {{tool}}</span>
             </div>
           </div>
         </a>
@@ -26,12 +27,17 @@
 
     <br>
     <br>
+<br/>
+<br/>
+<br/>
 
-    <center>
-      <p style="color: grey">© 2019 FAVOUR ORI</p>
-    </center>
+    
+      <p style="color: grey; font-size: 14px"> Designed with ❤️ by  Favour Ori &nbsp;&nbsp; - &nbsp;&nbsp;© 2019 All Rights Reserved  &nbsp;&nbsp; - &nbsp;&nbsp; About  ● Contact  ●  Resume</p>
+    
 
     <br>
+
+    
   </div>
 </template>
 
@@ -99,11 +105,28 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   margin-bottom: 30px;
+  
 }
 .projectCard {
-  background: #2c3e50;
+  background-image: linear-gradient(to left top, #356a9e, #3d70a3, #4577a8, #4d7dad, #5584b2);
   color: white;
-  height: 250px;
+  height: 280px;
+  opacity: 0.92;
+  
+
+  
+  
+ 
+}
+
+.projectCard:hover{
+background-image: linear-gradient(to right top, #356a9e, #3d70a3, #4577a8, #4d7dad, #5584b2);
+  color: white;
+  height: 280px;
+  opacity: 1;
+
+  
+  
 }
 
 .project-image {
@@ -118,6 +141,10 @@ export default {
 .btn:hover {
   background: red;
 }
+
+
+
+
 </style>
 
 
