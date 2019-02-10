@@ -2,7 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Projects from './views/Projects.vue'
-import Resume from './views/Resume.vue'
+import Resume from './views/Contact.vue'
+import Talks from "./views/Talks.vue";
 
 Vue.use(Router)
 
@@ -30,9 +31,14 @@ export default new Router({
       component: Projects
     },
     {
-      path: '/resume',
-      name: 'resume',
+      path: '/contact',
+      name: 'contact',
       component: Resume
+    },
+    {
+      path: '/talks',
+      name: 'talks',
+      component: Talks
     }
   ]
 })

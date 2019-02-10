@@ -10,8 +10,8 @@
         <li>  <router-link to="/">  Home </router-link>  </li>
 
         <li> <router-link to="/about"> About </router-link></li>
-         <li> <router-link to="/resume"> Contact </router-link></li>
-         <li> <router-link to="/resume"> Talks & Teachings </router-link></li>
+         <li> <router-link to="/contact"> Contact </router-link></li>
+         <li> <router-link to="/talks"> Talks & Teachings </router-link></li>
   
          <li> <router-link to="/projects"> <i class="material-icons left">dvr</i>Projects</router-link></li>
        
