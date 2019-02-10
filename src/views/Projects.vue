@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Project from '@/components/HomeProject.vue'
+import Project from '@/components/MainProjects.vue'
 export default {
     components : {
 Project

@@ -28,11 +28,13 @@
     <br>
     <br>
 <br/>
-<br/>
-<br/>
- <br/><br/> <br/>
+
+
     
-  
+      
+    
+
+    <br>
 
     
   </div>
@@ -43,7 +45,7 @@
 
 <script>
 export default {
-  name: "HomeProject",
+  name: "MainProjects",
 
   data() {
     return {
@@ -77,11 +79,67 @@ export default {
           projectLink: "http://4yby.org"
         },
 
-       
+        {
+          title: "SAU Maths & Computer Science Club",
+          desc:
+            "Responsive Website for Southern Arkansas University's Computer Science Club",
 
-        
+          tech: ["Javascript", "Materialize"],
+          image: require("@/assets/images/sau.png"),
+          projectLink: "http://web.saumag.edu"
+        },
 
-       
+         {
+          title: "SAU Maths & Computer Science Club",
+          desc:
+            "Responsive Website for Southern Arkansas University's Computer Science Club",
+
+          tech: ["Javascript", "Materialize"],
+          image: require("@/assets/images/sau.png"),
+          projectLink: "http://web.saumag.edu"
+        },
+
+
+
+         {
+          title: "SAU Maths & Computer Science Club",
+          desc:
+            "Responsive Website for Southern Arkansas University's Computer Science Club",
+
+          tech: ["Javascript", "Materialize"],
+          image: require("@/assets/images/sau.png"),
+          projectLink: "http://web.saumag.edu"
+        },
+
+         {
+          title: "SAU Maths & Computer Science Club",
+          desc:
+            "Responsive Website for Southern Arkansas University's Computer Science Club",
+
+          tech: ["Javascript", "Materialize"],
+          image: require("@/assets/images/sau.png"),
+          projectLink: "http://web.saumag.edu"
+        },
+
+         {
+          title: "SAU Maths & Computer Science Club",
+          desc:
+            "Responsive Website for Southern Arkansas University's Computer Science Club",
+
+          tech: ["Javascript", "Materialize"],
+          image: require("@/assets/images/sau.png"),
+          projectLink: "http://web.saumag.edu"
+        },
+
+         {
+          title: "SAU Maths & Computer Science Club",
+          desc:
+            "Responsive Website for Southern Arkansas University's Computer Science Club",
+
+          tech: ["Javascript", "Materialize"],
+          image: require("@/assets/images/sau.png"),
+          projectLink: "http://web.saumag.edu"
+        }
       ]
     };
   }

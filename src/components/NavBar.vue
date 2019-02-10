@@ -5,13 +5,15 @@
        
         <div class="container">
     <div class="nav-wrapper ">
-      <a href="#" class="brand-logo main-logo" style="font-size: 18px; font-weight: 300">FAVOR ORI 👨🏾‍💻 </a>
+      <a href="#" class="brand-logo main-logo" style="font-size: 17px; font-weight: 300">FAVOUR ORI </a>
       <ul class="right hide-on-med-and-down">
         <li>  <router-link to="/">  Home </router-link>  </li>
 
         <li> <router-link to="/about"> About </router-link></li>
          <li> <router-link to="/resume"> Contact </router-link></li>
-         <li> <router-link to="/projects"> <i class="material-icons left">view_module</i>Projects</router-link></li>
+         <li> <router-link to="/resume"> Talks & Teachings </router-link></li>
+  
+         <li> <router-link to="/projects"> <i class="material-icons left">dvr</i>Projects</router-link></li>
        
       </ul>
     </div>

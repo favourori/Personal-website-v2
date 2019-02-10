@@ -35,7 +35,7 @@ body{
 
 
 body::-webkit-scrollbar {
-    width: 4px;
+    width: 8px;
 }
  
 body::-webkit-scrollbar-track {
