@@ -20,7 +20,7 @@
 
 </div>
 
-      <div class="col s12 m8  animated fadeInUp">
+      <div class="col s12 m8  animated fadeInUp" style="text-align: Justify">
         <p style="font-size: 17px; margin-top: 0.9px; font-weight: 300"> <b>Background:</b></p>
         <p>In 2013, I dived into the world of programming & since I am largely self taught, it's been Fun, Awesome  &  Challenging at same time.</p>
         I am currently a Full Stack Developer Passionate about developing innovative products that will steer the future of computing. I love learning & exploring new technologies. Over the years, I have worked on web, mobile & desktop projects. 
@@ -73,7 +73,7 @@ export default {
 
   data(){
     return{
-      tools : ["Node Js", "Express", "Vue", "HTML5 & CSS3", "Git & Github", "Sketch", "IBM Watson","Python", "Java", "Adobe XD", "React & GraphQL"]
+      tools : ["Java", "Python", "Node Js", "Express", "Vue", "HTML5 & CSS3", "Git & Github", "Sketch", "IBM Watson", "Adobe XD", "React & GraphQL"]
     }
   }
 }

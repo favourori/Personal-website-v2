@@ -2,13 +2,13 @@
     <div class="container">
       
 <br/><br/><br/>
-  <p style="font-size: 22px; font-weight: 100">Recent Talks</p>
- <div class="row" style="margin-left: -10px; margin-right: -10px">
+  <p style="font-size: 18px; font-weight: 400">Recent Talks</p> <br/>
+ <div class="row " style="margin-left: -10px; margin-right: -10px">
       <div class="col s12 m4">    
           <div class="row">
     <div class="col s12 m12">
-      <div class="card z-depth-0">
-        <div class="card-image">
+      <div class="card z-depth-0 ">
+        <div class="card-image hoverable materialboxed">
           <img src="@/assets/images/ycbs.jpg">
           
         </div>
@@ -45,8 +45,8 @@
           <div class="row">
     <div class="col s12 m12">
       <div class="card z-depth-0">
-        <div class="card-image">
-          <img src="@/assets/images/1mcups.jpg">
+        <div class="card-image hoverable">
+          <img src="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiX4dSer7_gAhWTPH0KHa-tBKQQjRx6BAgBEAU&url=https%3A%2F%2Fwww.shopbackdrop.com%2Fproducts%2Fshop-solid-white-background-photography-backdrop&psig=AOvVaw19im0o9kNkU3SHV3R9N_9m&ust=1550376112461075" class="materialboxed">
           
         </div>
        
@@ -88,8 +88,8 @@
           <div class="row">
     <div class="col s12 m12">
       <div class="card z-depth-0">
-        <div class="card-image">
-          <img src="@/assets/images/sau.jpg">
+        <div class="card-image hoverable ">
+          <img src="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiX4dSer7_gAhWTPH0KHa-tBKQQjRx6BAgBEAU&url=https%3A%2F%2Fwww.shopbackdrop.com%2Fproducts%2Fshop-solid-white-background-photography-backdrop&psig=AOvVaw19im0o9kNkU3SHV3R9N_9m&ust=1550376112461075" class="materialboxed">
           
         </div>
        
@@ -137,11 +137,20 @@
 </template>
 
 <script>
+
+
+      
 export default {
 
 }
+
+
 </script>
 
 <style>
-
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
 </style>
